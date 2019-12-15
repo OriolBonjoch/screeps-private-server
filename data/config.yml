@@ -1,0 +1,13 @@
+# Most of these fields will live reload on save. 
+# Values set here will override any saved via CLI on server startup
+serverConfig: 
+    tickRate: 1000
+    socketUpdateRate: 200
+    shardName: 'screepsplus1'
+    welcomeText: |
+      <h1>Welcome</h1>
+      <div>Powered by screepsmod-admin-utils</div>
+    gclToCPU: true
+    maxCPU: 100
+    baseCPU: 20
+    stepCPU: 10
