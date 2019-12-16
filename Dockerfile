@@ -13,6 +13,7 @@ EXPOSE 21026
 
 COPY data/entrypoint.sh /usr/local/bin/
 COPY data/config.yml /screeps/
+RUN chmod 777 /usr/local/bin/entrypoint.sh
 
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["screeps", "start"]
